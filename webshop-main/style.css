@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  .termekkartya {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    display: inline-block;
+    min-width: 200px;
+    max-width: 600px;
+    text-align: center;
+    background-color: #8b8888;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+  }
+  
+  .termekkartya img {
+    width: 100%;
+    height: auto;
+  }
+
+  .orderButton {
+    background-color: #2a5d2c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+  .orderButton:hover{
+    background-color: #183519;
+    transition: 0.5s;
+  }
+  
+  .kosarElem {
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  nav button:hover {
+    background-color: #45a049;
+    transition: 0.5s;
+  }
+  
+  #kosar-container {
+    padding: 16px;
+    background-color: #fff;
+    margin: 16px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+  }
+
+  .bin {
+    height: 2rem;
+  }
